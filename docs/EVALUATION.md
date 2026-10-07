@@ -17,7 +17,3 @@ Historical course end-to-end traces used model-judged scores. They are not publi
 ## Self-contained public fixture
 
 The included fictional handbook was indexed into a separate authenticated Neo4j instance. The complete local pipeline answered “When does the sample campus library close on weekdays?” with “22:00”, citing `sample-campus.pdf`, page 1. The [answer excerpt](../evaluation/public-demo-answer.json) contains the question, result, and verified quote provenance. Its 1 chunk and 9 extracted entity nodes are separate from the 87-chunk campus rebuild above. Three targeted regression cases check citation recovery, fabricated quotations, and ambiguous quotations.
-
-## Self-contained public fixture
-
-The included fictional handbook was indexed into a separate authenticated Neo4j instance. The complete local pipeline answered “When does the sample campus library close on weekdays?” with “22:00”, citing `sample-campus.pdf`, page 1. The [answer excerpt](../evaluation/public-demo-answer.json) contains the question, result, and verified quote provenance. Its 1 chunk and 9 extracted entity nodes are separate from the 87-chunk campus rebuild above. Three targeted regression cases check citation recovery, fabricated quotations, and ambiguous quotations.

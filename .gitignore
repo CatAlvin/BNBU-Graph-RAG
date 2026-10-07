@@ -31,3 +31,8 @@ outputs/
 data/tokenizer_cache/
 data/demo_chunks.json
 .local.env.*
+
+# Unreviewed archives and local test caches
+*.zip
+*.7z
+*.rar
