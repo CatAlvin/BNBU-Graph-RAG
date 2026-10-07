@@ -22,7 +22,7 @@ Routing accuracy is measured on the existing course evaluation corpus; a disjoin
 ## From question to supported answer
 
 ```mermaid
-flowchart LR
+flowchart TB
   Q[Question] --> A[Answerability head]
   A -->|answerable| B[Source-routing head]
   A -->|refuse| F[Refusal response]
@@ -37,7 +37,7 @@ flowchart LR
 The `HYBRID` route activates both specialists. The router makes a local decision before larger models are used to retrieve, verify, or compose an answer.
 
 ```mermaid
-flowchart LR
+flowchart TB
   P[PDF pages] --> C[Overlapping chunks]
   C --> E[Embeddings]
   C --> N[Entity extraction]
