@@ -1,0 +1,20 @@
+{
+  "source_pdfs": 2,
+  "indexed_chunks": 87,
+  "embedding_model": "nomic-embed-text:latest",
+  "embedding_dimension": 768,
+  "graph_extraction_chunks": 12,
+  "entity_mentions_processed": 96,
+  "node_counts": [
+    {
+      "label": "Document",
+      "count": 87
+    },
+    {
+      "label": "__Entity__",
+      "count": 74
+    }
+  ],
+  "graph_extraction_errors": [],
+  "scope": "Fresh local demo KB; all PDF chunks vector-indexed; entities extracted for 12 selected chunks."
+}

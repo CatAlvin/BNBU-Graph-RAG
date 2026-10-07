@@ -1,0 +1,13 @@
+{
+  "release": "v1.0.0",
+  "assets": [
+    {
+      "name": "gpt2_124M_router_2stage.pth",
+      "url": "https://github.com/CatAlvin/BNBU-Graph-RAG/releases/download/v1.0.0/gpt2_124M_router_2stage.pth",
+      "sha256": "fbb0d3ed4a8f80243d80fd2870db8aded894b23160262ec8ff36b8aae1bc4436",
+      "bytes": 702570965,
+      "destination": "checkpoints/gpt2_124M_router_2stage.pth",
+      "zip": false
+    }
+  ]
+}

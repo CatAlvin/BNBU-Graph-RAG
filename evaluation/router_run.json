@@ -1,0 +1,15 @@
+{
+  "samples": 340,
+  "correct": 296,
+  "accuracy": 0.8705882352941177,
+  "seconds": 12.052490499918349,
+  "device": "cpu",
+  "cloud_correction": false,
+  "evaluation_scope": "Existing course evaluation corpus; train/test disjointness not established",
+  "counts": {
+    "RAG_ONLY": 116,
+    "WEB_ONLY": 77,
+    "HYBRID": 81,
+    "REFUSE": 66
+  }
+}

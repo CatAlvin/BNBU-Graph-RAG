@@ -1,0 +1,16 @@
+{
+  "fixture": "Fictional public campus handbook; not a real university policy",
+  "question": "When does the sample campus library close on weekdays?",
+  "router_label": "RAG_ONLY",
+  "execution_route": "RAG_ONLY",
+  "answer": "The sample campus library closes at 22:00 on weekdays.",
+  "evidence": [
+    {
+      "source": "sample-campus.pdf",
+      "page": 1,
+      "text": "The sample campus library opens at 08:00 and closes at 22:00 on weekdays."
+    }
+  ],
+  "cloud_calls": false,
+  "elapsed_seconds": 11.794923200039193
+}

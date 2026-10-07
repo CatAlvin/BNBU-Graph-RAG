@@ -1,0 +1,36 @@
+{
+  "labels": [
+    "RAG_ONLY",
+    "WEB_ONLY",
+    "HYBRID",
+    "REFUSE"
+  ],
+  "rows": "target",
+  "columns": "prediction",
+  "counts": [
+    [
+      80,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      74,
+      5,
+      0
+    ],
+    [
+      3,
+      1,
+      76,
+      0
+    ],
+    [
+      32,
+      2,
+      0,
+      66
+    ]
+  ]
+}

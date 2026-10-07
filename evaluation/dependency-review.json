@@ -1,0 +1,7 @@
+{
+  "date": "2026-10-07",
+  "source": "OSV",
+  "scope": "Resolved public Python runtime dependency closure on Windows",
+  "packages_checked": 95,
+  "known_vulnerabilities_found": 0
+}
